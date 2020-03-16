@@ -43,16 +43,15 @@ if __name__ == "__main__":
     print("PROCESSING SOCIAL MEDIA DATA...")
     print("------------------")
     print(tweets)
-
-    # breakpoint()
-
+    #breakpoint()
 
     #
     # QUESTION A
     #
     # "Print" the screen name of the user who authored the first tweet (i.e. "sandwhoa"):
 
-    print("HELLO")
+    print("QUESTION A..")
+    print(tweets[0]["user"]["screen_name"])
 
     #
     # QUESTION B
